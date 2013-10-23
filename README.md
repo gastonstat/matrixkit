@@ -1,6 +1,6 @@
 # `"matrixkit"`
 
-**matrixkit** is an R package that provides a *first aid kit* for some matrix operations commonly used in multivariate data analysis methods.
+**matrixkit** is an [R](http://www.r-project.org/) package that provides a *first aid kit* for some matrix operations commonly used in multivariate data analysis methods.
 
 
 ## Motivation
@@ -10,10 +10,10 @@ I developed `matrixkit` as part of a major project to develop a set of tools for
 
 ## Installation
 
-Stable version on [CRAN](http://cran.r-project.org/web/packages/matrixkit/index.html):
+Stable version NOT on CRAN yet:
 
 ```ruby
-# stable version
+# stable version (not yet)
 install.packages('matrixkit')
 ```
 
