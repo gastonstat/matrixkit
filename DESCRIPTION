@@ -1,0 +1,29 @@
+Package: matrixkit
+Type: Package
+Title: First aid kit for matrix operations
+Version: 0.1.0
+Date: 2013-10-23
+Author: Gaston Sanchez
+Maintainer: Gaston Sanchez <gaston.stat@gmail.com>
+Description: Handy functions for basic matrix operations
+    commonly used in multivariate data analysis methods
+License: GPL-3
+Depends:
+    R (>= 3.0),
+    MASS,
+    tester,
+    turner
+Suggests:
+    testthat,
+    knitr
+VignetteBuilder: knitr
+Collate:
+    'dummify.r'
+    'identity.r'
+    'matrix-norms.r'
+    'ones-zeros.r'
+    'projector.r'
+    'rank.r'
+    'rv-coefficient.r'
+    'trace.r'
+    'vector-norm.r'

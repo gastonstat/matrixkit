@@ -1,0 +1,69 @@
+\documentclass[12pt]{article}
+\usepackage{upquote}
+\usepackage{geometry}
+\geometry{verbose,tmargin=2.5cm,bmargin=2.5cm,lmargin=2.5cm,rmargin=2.5cm}
+\setlength{\parindent}{0in}
+\usepackage{color}
+\definecolor{darkgray}{rgb}{0.3,0.3,0.3}
+\definecolor{lightgray}{rgb}{0.5,0.5,0.5}
+\definecolor{tomato}{rgb}{0.87,0.32,0.24}
+\definecolor{myblue}{rgb}{0.066,0.545,0.890}
+\definecolor{linkcolor}{rgb}{0.87,0.32,0.24}
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  urlcolor=linkcolor,
+  linkcolor=linkcolor
+}
+
+% \VignetteIndexEntry{Introduction to tester}
+% \VignetteEngine{knitr}
+
+\begin{document}
+\title{Introduction to \texttt{matrixkit}}
+\author{
+ \textbf{\textcolor{darkgray}{G}}\textcolor{lightgray}{aston} 
+ \textbf{\textcolor{darkgray}{S}}\textcolor{lightgray}{anchez} \\
+  \small \texttt{\href{http://www.gastonsanchez.com}
+{www.gastonsanchez.com}}
+}
+\date{}
+\maketitle
+
+
+<<echo=FALSE, message=FALSE>>=
+library(matrixkit)
+@
+
+\section{Introduction and Motivation}
+\texttt{matrix} provides a set of matrix-related functions that don't come in the base distribution of R but that are frequently used in multivariate data analysis methods. In this sense, \texttt{matrixkit} aims to provide an auxiliary kit that allows us to reduce the burden when implement multivariate methods in general. 
+
+
+
+\section{About \texttt{matrixkit}}
+To use \texttt{matrixkit} (once you have installed it), load it with the function \texttt{library()}:
+<<load_matrixkit, eval=FALSE>>=
+# load package matrixkit
+library(matrixkit)
+@
+
+
+\subsection{Logical}
+To test if an object (or a condition) is \texttt{TRUE} or \texttt{FALSE}, we can use the following functions:
+\begin{center}
+ \begin{tabular}{l l}
+  \multicolumn{2}{c}{\textbf{Testing Logicals}} \\
+  \hline
+  Function & Description \\
+  \hline
+  \texttt{is\_TRUE()} & tests if an object is \texttt{TRUE} \\
+  \texttt{is\_FALSE()} & tests if an object is \texttt{FALSE} \\
+  \texttt{true\_or\_false()} & tests if is \texttt{TRUE} or \texttt{FALSE} \\
+  \hline
+ \end{tabular}
+\end{center}
+
+
+
+
+\end{document}
