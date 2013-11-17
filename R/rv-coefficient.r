@@ -22,6 +22,8 @@ RV_coefficient <- function(X, Y, center = TRUE)
 {
   if (!is_numeric_matrix(X))
     stop("\n'RV()' requires 'X' to be a numeric matrix")
+  if (missing(Y))
+    stop("\n'Y' is missing for 'RV_coefficient()'")
   if (!is_numeric_matrix(Y))
     stop("\n'RV()' requires 'Y' to be a numeric matrix")
   if (nrow(X) != nrow(Y))
