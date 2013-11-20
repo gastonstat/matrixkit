@@ -47,13 +47,6 @@ M = matrix(runif(15), 5, 3)
 
 # projector matrix
 projector(M)
-
-# create two matrices with same number of rows
-A = matrix(1:9, 3, 3)
-B = matrix(rnorm(9), 3, 3)
-
-# RV coefficient of A and B
-RV_coefficient(A, B)
 ```
 
 
