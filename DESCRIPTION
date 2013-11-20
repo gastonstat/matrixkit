@@ -9,7 +9,7 @@ Description: Handy functions for basic matrix operations
     commonly used in multivariate data analysis methods
 License: GPL-3
 Depends:
-    R (>= 3.0),
+    R (>= 3.0.1),
     MASS,
     tester,
     turner
