@@ -5,7 +5,7 @@
 
 ## Motivation
 
-I developed `matrixkit` as part of a major project to develop a set of tools for **multiblock** methods. The main idea behind `matrixkit` is to have a set of functions that are frequently used in several multivariate methods. For instance, calculate the (euclidean) norm of a vector, the trace of a square matrix, a *Projector* (aka *hat matrix*) matrix, the *RV coefficient* between two matrices, etc.
+I developed `matrixkit` as part of a major project to develop a set of tools for **multiblock** methods. The main idea behind `matrixkit` is to have a set of functions that are frequently used in several multivariate methods. For instance, calculate the (euclidean) norm of a vector, the trace of a square matrix, a *Projector* (aka *hat matrix*) matrix, obtain a binary matrix from a given factor etc.
 
 
 ## Installation
