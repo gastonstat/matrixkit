@@ -41,6 +41,12 @@ X = matrix(runif(25), 5, 5)
 # trace of X
 tr(X)
 
+# lower triangular part
+lower_triangular(X)
+
+# upper triangular part
+upper_triangular(X)
+
 # create a matrix
 set.seed(5)
 M = matrix(runif(15), 5, 3)
