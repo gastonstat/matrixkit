@@ -2,7 +2,7 @@ Package: matrixkit
 Type: Package
 Title: First aid kit for matrix operations
 Version: 0.1.0
-Date: 2013-11-21
+Date: 2013-11-22
 Author: Gaston Sanchez
 Maintainer: Gaston Sanchez <gaston.stat@gmail.com>
 Description: Handy functions for basic matrix operations
@@ -28,3 +28,5 @@ Collate:
     'vector-norm.r'
     'svd-eigen-values.r'
     'lower-upper-triangular.r'
+    'gram_schmidt.r'
+    'orthogonal.r'
