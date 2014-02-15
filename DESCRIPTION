@@ -2,7 +2,7 @@ Package: matrixkit
 Type: Package
 Title: First aid kit for matrix operations
 Version: 0.1.0
-Date: 2013-11-28
+Date: 2014-02-15
 Author: Gaston Sanchez
 Maintainer: Gaston Sanchez <gaston.stat@gmail.com>
 Description: Handy functions for basic matrix operations
@@ -14,7 +14,6 @@ Depends:
     tester,
     turner
 Suggests:
-    testthat,
     knitr
 VignetteBuilder: knitr
 Collate:
@@ -28,7 +27,12 @@ Collate:
     'vector-norm.r'
     'svd-eigen-values.r'
     'lower-upper-triangular.r'
-    'gram_schmidt.r'
     'orthogonal.r'
-    'power_method.r'
     'rank-reduction.r'
+    'inner-product.r'
+    'pseudoinverse.r'
+    'svd-smart.r'
+    'vectorize.r'
+    'centering-scaling.r'
+    'gram-schmidt.r'
+    'power-method.r'

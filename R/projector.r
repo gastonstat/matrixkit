@@ -1,6 +1,7 @@
 #' @title Orthogonal Projector (a.k.a. hat matrix)
 #' 
 #' @description produces an orthogonal projection matrix
+#' i.e. X (X' X)-1 X'
 #' 
 #' @param x numeric matrix
 #' @param inverse type of inverse. Options: \code{"solve"} (default)

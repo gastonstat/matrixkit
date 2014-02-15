@@ -12,7 +12,8 @@
   (default) and \code{"ginv"}}
 }
 \description{
-  produces an orthogonal projection matrix
+  produces an orthogonal projection matrix i.e. X (X' X)-1
+  X'
 }
 \examples{
 # a matrix

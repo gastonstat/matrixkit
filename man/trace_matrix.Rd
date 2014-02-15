@@ -6,7 +6,7 @@
   trace_matrix(x)
 }
 \arguments{
-  \item{x}{numeric square matrix}
+  \item{x}{square numeric matrix}
 }
 \description{
   calculates the trace of a square matrix

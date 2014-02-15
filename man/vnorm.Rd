@@ -32,4 +32,7 @@ col1 = matrix(1:5, 5, 1)
 # norm of col1
 vnorm(col1)
 }
+\seealso{
+  \code{\link{mnorm}}, \code{\link{normalize}}
+}
 

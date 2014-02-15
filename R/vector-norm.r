@@ -5,6 +5,7 @@
 #' @param x a numeric vector (or a one-dimension matrix)
 #' @return norm of x
 #' @export
+#' @seealso \code{\link{mnorm}}, \code{\link{normalize}}
 #' @examples
 #' # vector
 #' v = rep(1, 5)
@@ -50,4 +51,27 @@ vnorm.matrix <- function(x) {
   # calculate norm
   if (x_dim[1L] == 1) return(sqrt(sum(x[1L,] * x[1L,])))
   if (x_dim[2L] == 1) return(sqrt(sum(x[,1L] * x[,1L])))
+}
+
+
+#' @title Normalize
+#' @description Normalizes a vector by its euclidean norm
+#' @param x numeric vector (or one-dimension matrix)
+#' @export
+#' @seealso \code{\link{vnorm}}
+#' @examples
+#' # vector
+#' v = rep(1, 5)
+#' 
+#' # normalize of v
+#' normalize(v)
+#' 
+#' # test it (norm = 1)
+#' vnorm(normalize(v))
+#' 
+#' # matrix
+#' m = matrix(rnorm(12), 4, 3)
+#' apply(m, 2, normalize)
+normalize <- function(x) {
+  x / vnorm(x)
 }

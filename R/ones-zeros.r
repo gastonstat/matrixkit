@@ -53,7 +53,7 @@ ones_matrix <- function(n, p)
     stop("\n'ones()'requires positive integers")
   
   # output
-  matrix(1, nrow=n, ncol=p)  
+  matrix(1, nrow = n, ncol = p)  
 }
 
 
@@ -113,5 +113,5 @@ zeros_matrix <- function(n, p)
     stop("\n'zeros()' requires positive integers")
   
   # output
-  matrix(0, nrow=n, ncol=p)  
+  matrix(0, nrow = n, ncol = p)  
 }

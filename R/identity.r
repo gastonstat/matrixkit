@@ -1,5 +1,5 @@
-#' @title idendity matrix
-#' @description produces an indentity matrix of a given size
+#' @title Identity Matrix
+#' @description Produces an indentity matrix of a given size
 #' @param n positive integer indicating the size
 #' @export
 #' @examples

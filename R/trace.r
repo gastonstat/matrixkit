@@ -1,6 +1,6 @@
 #' @title Trace of a square matrix
 #' @description calculates the trace of a square matrix
-#' @param x numeric square matrix
+#' @param x square numeric matrix
 #' @export trace_matrix tr
 #' @aliases trace_matrix tr
 #' @examples
@@ -15,8 +15,13 @@
 #' tr(M)
 trace_matrix <- function(x)
 {
-  if (is_not_square_numeric_matrix(x))
-    stop("\n'trace_matrix()' requires a square numeric matrix")
+  if (is_not_square_numeric_matrix(x)) {
+    if (is_scalar(x)) {
+      return(x)
+    } else {
+      stop("\n'trace_matrix()' requires a square numeric matrix")      
+    }
+  }
   
   # output
   sum(diag(x))

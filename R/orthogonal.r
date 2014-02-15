@@ -16,6 +16,7 @@ orthogonal <- function(x)
 {
   if (!is.numeric(x))
     stop("\n'orthogonal()' requires a numeric argument")
+  
   # Q matrix from QR decomposition
   qr.Q(qr(x))
 }

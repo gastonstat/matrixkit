@@ -1,6 +1,6 @@
 \name{identity_matrix}
 \alias{identity_matrix}
-\title{idendity matrix}
+\title{Identity Matrix}
 \usage{
   identity_matrix(n)
 }
@@ -8,7 +8,7 @@
   \item{n}{positive integer indicating the size}
 }
 \description{
-  produces an indentity matrix of a given size
+  Produces an indentity matrix of a given size
 }
 \examples{
 # 3x3 identity matrix
