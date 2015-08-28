@@ -26,7 +26,7 @@ B1 = pseudoinverse(A)
 round(A \%*\% B1, 3)
 
 # compare to 'ginv()'
-require(MASS)
+library(MASS)
 B2 = ginv(A)
 B2
 B1

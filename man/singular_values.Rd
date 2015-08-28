@@ -5,7 +5,7 @@
   singular_values(x, center = TRUE, scale = TRUE)
 }
 \arguments{
-  \item{x}{a matrix or data frame}
+  \item{x}{a matrix or numeric data frame}
 
   \item{center}{either a logical value or a numeric vector
   of length equal to the number of columns of \code{x} for
@@ -16,7 +16,7 @@
   column scaling (see \code{\link{scale}})}
 }
 \description{
-  Compute singular values of a matrix
+  Returns singular values of a matrix
 }
 \examples{
 # using data USArrests

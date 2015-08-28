@@ -10,7 +10,7 @@
   \item{diag}{whether the diagonal should be included}
 }
 \description{
-  Extract the upper triangular part of a matrix
+  Extracts the upper triangular part of a matrix
 }
 \examples{
 m = matrix(1:20, 4, 4)

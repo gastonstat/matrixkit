@@ -44,7 +44,7 @@ power_method <- function(X, v = NULL, eps = 1e-6, maxiter = 100)
     steps = steps + 1
     if (steps == maxiter) break
   }
-  # Raleygh quotient
+  # Rayleigh quotient
   lambda = sum((X %*% v_new) * v_new)
   # output
   list(vector = v_new, value = lambda, iter = steps)

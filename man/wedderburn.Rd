@@ -1,7 +1,7 @@
 \name{wedderburn}
 \alias{rank_reduction}
 \alias{wedderburn}
-\title{Wedderburn rank reduction}
+\title{Wedderburn Rank Reduction}
 \usage{
   wedderburn(X, a = NULL, b = NULL)
 }

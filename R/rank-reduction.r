@@ -1,4 +1,4 @@
-#' @title Wedderburn rank reduction
+#' @title Wedderburn Rank Reduction
 #' 
 #' @description Rank reduction of a matrix by means of Wedderburn theorem
 #' 

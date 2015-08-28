@@ -56,7 +56,7 @@ dummify.matrix <- function(x, labels = TRUE, full = TRUE) {
 #' @S3method dummify data.frame
 dummify.data.frame <- function(x, labels = TRUE, full = TRUE)
 {
-  # only factos and no missing values
+  # only factors and no missing values
   column_class = sapply(x, class)
   if (any(column_class != "factor"))
     stop("\n'dummify()' requires a data frame with factors")

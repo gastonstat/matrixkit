@@ -1,6 +1,6 @@
 #' @title Lower Triangular
 #' 
-#' @description Extract the lower triangular part of a matrix
+#' @description Extracts the lower triangular part of a matrix
 #' 
 #' @param x a matrix
 #' @param diag whether the diagonal should be included
@@ -31,7 +31,7 @@ lower_triangular <- function(x, diag = FALSE)
 
 #' @title Upper Triangular
 #' 
-#' @description Extract the upper triangular part of a matrix
+#' @description Extracts the upper triangular part of a matrix
 #' 
 #' @param x a matrix
 #' @param diag whether the diagonal should be included

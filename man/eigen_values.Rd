@@ -5,7 +5,7 @@
   eigen_values(x, center = TRUE, scale = TRUE)
 }
 \arguments{
-  \item{x}{a matrix or data frame}
+  \item{x}{a matrix or numeric data frame}
 
   \item{center}{either a logical value or a numeric vector
   of length equal to the number of columns of \code{x} for
@@ -16,7 +16,7 @@
   scaling}
 }
 \description{
-  Compute eigenvalues of a matrix
+  Returns eigenvalues of a matrix
 }
 \examples{
 # using data USArrests

@@ -1,15 +1,16 @@
 Package: matrixkit
 Type: Package
 Title: First aid kit for matrix operations
-Version: 0.1.0
-Date: 2014-02-15
+Version: 0.1.1
+Date: 2014-09-14
 Author: Gaston Sanchez
 Maintainer: Gaston Sanchez <gaston.stat@gmail.com>
 Description: Handy functions for basic matrix operations
     commonly used in multivariate data analysis methods
 License: GPL-3
 Depends:
-    R (>= 3.0.1),
+    R (>= 3.0.1)
+Imports:
     MASS,
     tester,
     turner
@@ -36,3 +37,4 @@ Collate:
     'centering-scaling.r'
     'gram-schmidt.r'
     'power-method.r'
+    'matrixkit.r'

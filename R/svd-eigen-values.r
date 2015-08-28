@@ -1,8 +1,8 @@
 #' @title Eigen-values
 #' 
-#' @description Compute eigenvalues of a matrix
+#' @description Returns eigenvalues of a matrix
 #' 
-#' @param x a matrix or data frame
+#' @param x a matrix or numeric data frame
 #' @param center either a logical value or a numeric vector of length equal 
 #' to the number of columns of \code{x} for centering
 #' @param scale either a logical value or a numeric vector of length equal 
@@ -22,9 +22,9 @@ eigen_values <- function(x, center = TRUE, scale = TRUE)
 
 #' @title Singular Values
 #' 
-#' @description Compute singular values of a matrix
+#' @description Returns singular values of a matrix
 #' 
-#' @param x a matrix or data frame
+#' @param x a matrix or numeric data frame
 #' @param center either a logical value or a numeric vector of length equal 
 #' to the number of columns of \code{x} for column centering 
 #' (see \code{\link{scale}})
